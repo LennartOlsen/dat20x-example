@@ -1,8 +1,8 @@
 class main {
-	get hello() {
-		return _hello
-	} 
-	set hello(u : string) {
-		_hello = u
+	String _hello
+	
+	get hello() {} 
+	set hello(v: string) {
+		_hello = v
 	}
 } 
